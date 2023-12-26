@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+}
+
+header {
+    background-color: #3498db; 
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    max-width: 100%;
+    margin: 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.job-cards-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.job-card {
+    width: 48%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #b3cde0;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.filter-and-interest-container {
+    width: 40%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#filterForm {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#filterForm label {
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 10px;
+    width: 48%;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #b3cde0;
+    color: white;
+}
+
+.expanded-content {
+    margin-top: 10px;
+    display: none;
+}
